@@ -1,20 +1,6 @@
-import java.util.Scanner;
-
-public class MultiplicationTable {
+public class karan{
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        // Ask the user to input a number
-        System.out.print("Enter a number for the multiplication table: ");
-        int number = scanner.nextInt();
-        
-        // Print the multiplication table for the number
-        System.out.println("Multiplication Table for " + number + ":");
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(number + " x " + i + " = " + (number * i));
-        }
-        
-        scanner.close();
+        // Print "Hello, World!" to the console
+        System.out.println("hii second jenkinsHello,my name is  World!");
     }
 }
-
